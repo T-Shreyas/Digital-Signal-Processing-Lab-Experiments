@@ -1,5 +1,9 @@
 # Digital-Signal-Processing-Lab-Experiments
 
+| ![](Images/Digital-Signal-Processing.jpg) | 
+|:--:| 
+
+
 | ![](Images/Page_1.png) | 
 |:--:| 
 | *DSP Lab Exps - Cycle 1* |
