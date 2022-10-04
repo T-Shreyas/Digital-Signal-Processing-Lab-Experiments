@@ -1,5 +1,5 @@
 # Digital-Signal-Processing-Lab-Experiments
 
-| ![](Images/image1.JPG) | 
+| ![](Images/Page_1.PNG) | 
 |:--:| 
-| **Block Diagram-1:** *Interfacing Hardware and Software* |
+| **Block Diagram-1:** *DSP Lab Exp - Cycle 1* |
