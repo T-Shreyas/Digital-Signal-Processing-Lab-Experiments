@@ -1,0 +1,36 @@
+#include<stdio.h>
+int x[20],y[20],h[20];
+int main(void) {
+int m,i,j;
+printf("Enter the length of x[n]\n");
+scanf("%d",&m);
+printf("Enter the elements of x[n]\n");
+for(i=0;i<m;i++){
+scanf("%d",&x[i]);
+}
+for(i=0;i<m;i++){
+h[i]=x[m-1-i];
+}
+for(j=m;j<m+m-1;j++){
+x[j]=0;
+}
+for(j=m;j<m+m-1;j++){
+h[j]=0;
+}
+for (i = 0; i < m + m - 1; i++)
+{
+y[i] = 0;
+for (j = 0; j <= i; j++)
+{
+y[i] = y[i] + (x[j]* h[i-j]); // Calculating Linear Convolution
+}
+}
+//displaying the o/p
+printf("Auto correlation is:\n");
+for (i = 0; i < m + m - 1; i++)
+{
+printf("y[%d]=%d\n", i, y[i]); // Printing it to STDOUT
+}
+printf("\n\n");
+return 0;
+}
